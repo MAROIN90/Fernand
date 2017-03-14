@@ -1,0 +1,4 @@
+services:
+#    fernand.example:
+#        class: FernandBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

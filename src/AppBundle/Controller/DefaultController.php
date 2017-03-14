@@ -18,4 +18,8 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
         ]);
     }
+
+    public function index1Action(){
+        return $this->render('AppBundle:index.html.twig');
+    }
 }
